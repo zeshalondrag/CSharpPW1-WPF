@@ -41,6 +41,8 @@ namespace Tic_Tac_Toe
             {
                 chatgpt(user);
             }
+
+            result.Content = "";
         }
 
         private void exit_Click(object sender, RoutedEventArgs e)
